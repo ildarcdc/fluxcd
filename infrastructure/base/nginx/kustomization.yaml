@@ -1,4 +1,4 @@
 resources:
   - "repository.yaml"
   - "namespace.yaml"
-  - "chart.yaml"
+  - "release.yaml"
