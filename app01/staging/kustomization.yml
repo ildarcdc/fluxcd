@@ -1,2 +1,4 @@
 resources:
-  - ../base
+  - "../base"
+  - "dep_app01.yaml"
+  - "srv_app01.yaml"
