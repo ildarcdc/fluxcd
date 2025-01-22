@@ -4,10 +4,10 @@ metadata:
   name: web-app
   namespace: app01
   labels:
-    app: web-app
+    app.kubernetes.io/name: web-app
 spec:
   selector:
-    app: web-app
+    app.kubernetes.io/name: web-app
   ports:
   - name: http
     port: 80

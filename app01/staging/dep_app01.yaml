@@ -4,16 +4,16 @@ metadata:
   name: web-app
   namespace: app01
   labels:
-    app: web-app
+    app.kubernetes.io/name: web-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: web-app
+      app.kubernetes.io/name: web-app
   template:
     metadata:
       labels:
-        app: web-app
+        app.kubernetes.io/name: web-app
     spec:
       containers:
       - image: nginx
