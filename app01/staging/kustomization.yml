@@ -2,3 +2,4 @@ resources:
   - "../base"
   - "dep_app01.yaml"
   - "srv_app01.yaml"
+  - "ingress_app01.yaml"
