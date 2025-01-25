@@ -26,8 +26,8 @@ spec:
           - "echo 'welcome to my web app!' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
         resources:
           limits:
-            memory: "256Mi"  # Maximum memory allowed
-            cpu: "200m"       # Maximum CPU allowed (200 milliCPU)
+            memory: "128Mi"  # Maximum memory allowed 256Mi
+            cpu: "100m"       # Maximum CPU allowed (200 milliCPU)
           requests:
             memory: "128Mi"  # Initial memory request
             cpu: "100m"       # Initial CPU request
