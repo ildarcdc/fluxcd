@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: web-app01
+  namespace: app01
 spec:
   rules:
   - host: web-app.app01.svc.cluster.local
