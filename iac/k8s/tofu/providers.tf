@@ -1,4 +1,4 @@
 provider "kubernetes" {
-  config_path    = "/home/ildar/.kube/config"
-  config_context = "kind-flux"
+  config_path    = "/etc/rancher/k3s/k3s.yaml"
+  config_context = "default"
 }
